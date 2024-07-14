@@ -1,19 +1,27 @@
-# Canvas AI
+**Canvas** is a cross-platform desktop overlay to help organize your work, workflows and **data** into separate "contexts".
 
-**Canvas** is a cross-platform desktop overlay to help organize your work / workflows and **data** into separate "contexts".  
+Contexts are organized into a dynamic tree structure resembling a file-system hierarchy. Every tree node represents a separate layer(linked to a bitmap index(es)) filtering down all unstructured information fighting for your attention while working in a standard(tm) desktop environment(emails, notifications/chat and system messages, growing number of random browser tabs and ad-hoc download-extract-test-forget endeavors).
 
-Contexts are organized into a tree structure resembling a file-system hierarchy where every tree node represents a separate layer(linked to a bitmap index(es)) filtering down all unstructured information fighting for your attention on a standard(tm) desktop setup(emails, notifications, chat messages, growing number of random browser tabs and ad-hoc download-extract-test-forget endeavors).
+## Architecture
 
-## Discover
 
-- https://github.com/canvas-ai/canvas
-- https://github.com/canvas-ai/canvas-server
-- https://github.com/canvas-ai/canvas-electron
-- https://github.com/canvas-ai/canvas-shell
-- https://github.com/canvas-ai/canvas-browser-extensions
+## Show me the code
+
+- <https://github.com/canvas-ai/canvas>
+- <https://github.com/canvas-ai/canvas-server>
+- <https://github.com/canvas-ai/canvas-electron>
+- <https://github.com/canvas-ai/canvas-shell>
+- <https://github.com/canvas-ai/canvas-browser-extensions>
+
+
+## Our Paid contribution model
+
+- There is no such thing as a free lunch(more on this topic later)
+- We support payments for your code contributions via paypal, direct bank transfer based on a standard invoice towards our parent organization, upwork, remoteok + a few others, don't hesitate to contact us if you need more information!
 
 ## Get Involved
 
-- https://github.com/orgs/canvas-ai/projects/2 
-- https://canvasai.slack.com/
-
+- By opening a new issue in any existing repository
+- Picking an issue to work on at <https://github.com/orgs/canvas-ai/projects/2>
+- Saying hello over <https://canvasai.slack.com>
+- Or spamming us directly via <devel@getcanvas.org> || <contrib@getcanvas.org>
