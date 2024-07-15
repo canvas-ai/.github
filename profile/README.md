@@ -1,6 +1,6 @@
 **Canvas** is a cross-platform desktop overlay to help organize your work, workflows and **data** into separate "contexts".
 
-Contexts are organized into a dynamic tree structure resembling a file-system hierarchy. Every tree node represents a separate layer(linked to one or more bitmap indexes) filtering down all unstructured information fighting for your attention while working in a standard(tm) desktop environment(emails, notifications/chat and system messages, growing number of random browser tabs and ad-hoc download-extract-test-forget endeavors to name a few).
+Contexts are organized into a dynamic tree structure resembling a file-system hierarchy. Every tree node represents a separate layer(linked to one or more context bitmaps) filtering down all unstructured information fighting for your attention while working in a standard(tm) desktop environment(emails, notifications/chat and system messages, growing number of random browser tabs and ad-hoc download-extract-test-forget endeavors to name a few).
 
 ## Architecture
 
