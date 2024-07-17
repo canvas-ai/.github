@@ -7,7 +7,7 @@ Contexts are organized into a dynamic tree structure resembling a file-system hi
 - **You own your data!**  
   You can run every part of the application stack wherever you want, with whatever data or compute backend you want
 - **Offline first**  
-  Iow - if a solar CME kicks this civilization back to the stone age(again?) and you happen to have a working power source, you can still browse all your metadata || cached data to check on your appointments, emails, tax returns and all the other stuff you no longer have to worry about (or browse cached content about what you need to worry about)
+  Iow - if a solar CME kicks this civilization back to the stone age(again?) and you happen to have a working power source, you can still browse all your metadata || cached data to check on your appointments, emails, tax returns and all the other stuff you no longer have to worry about (or browse cached content related to what you need to worry about)
 - **Developer friendly**  
   The whole stack is primarily designed to be actively worked on, git is your friend(no, thats really a feature:)
 - **Extensions are first-class citizens**  
