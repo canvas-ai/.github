@@ -33,12 +33,6 @@ Contexts are organized into a dynamic tree structure resembling a file-system hi
 - <https://github.com/canvas-ai/canvas-shell>
 - <https://github.com/canvas-ai/canvas-browser-extensions>
 
-
-## Our Paid contribution model
-
-- There is no such thing as a free lunch(more on this topic later)
-- We support payments for your code contributions via paypal, direct bank transfer based on a standard invoice towards our parent organization, upwork, remoteok + a few others, don't hesitate to contact us if you need more information!
-
 ## Get Involved
 
 - By opening a new issue in any existing repository
