@@ -4,14 +4,10 @@ Contexts are organized into a dynamic tree structure resembling a file-system hi
 
 ## Couple of core principles to start with
 
-- **You own your data!**  
+- **You own your data**  
   You can run every part of the application stack wherever you want, with whatever data or compute backend you want
 - **Offline first**  
   Iow - if a solar CME kicks this civilization back to the stone age(again?) and you happen to have a working power source, you can still browse all your metadata || cached data to check on your appointments, emails, tax returns and all the other stuff you no longer have to worry about (or browse cached content related to things you need to worry about)
-- **Developer friendly**  
-  The whole stack is primarily designed to be actively worked on; git is your friend(no, thats really a feature:)
-- **Extensions are first-class citizens**  
-  (whatever that may mean at this stage of development)
 
 ## Architecture
 
@@ -27,10 +23,8 @@ Contexts are organized into a dynamic tree structure resembling a file-system hi
 
 ## Show me the code
 
-- <https://github.com/canvas-ai/canvas>
 - <https://github.com/canvas-ai/canvas-server>
 - <https://github.com/canvas-ai/canvas-electron>
-- <https://github.com/canvas-ai/canvas-shell>
 - <https://github.com/canvas-ai/canvas-browser-extensions>
 
 ## Get Involved
@@ -38,4 +32,4 @@ Contexts are organized into a dynamic tree structure resembling a file-system hi
 - By opening a new issue in any existing repository
 - By picking an issue to work on at <https://github.com/orgs/canvas-ai/projects/2>
 - Saying hello over <https://canvasai.slack.com>
-- Or spamming us directly via <devel@getcanvas.org> || <contrib@getcanvas.org>
+- Or spamming us directly via <devel@getcanvas.org>
