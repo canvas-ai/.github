@@ -1,6 +1,6 @@
-**Canvas** is a cross-platform desktop overlay to help organize your work, workflows and **data** into separate "contexts".
+**Canvas** is a cross-platform desktop overlay to help organize your work, workflows and **data** into separate "**contexts**".
 
-Contexts are organized into a dynamic tree structure resembling a file-system hierarchy. Every tree node represents a separate layer(linked to one or more context bitmaps) filtering down all unstructured information fighting for your attention while working in a standard(tm) desktop environment(emails, notifications/chat and system messages, growing number of random browser tabs, unmanageable stack of windows and ad-hoc download-extract-test-forget endeavors to name a few).
+**Contexts** are represented by a **dynamic tree structure** resembling a file-system hierarchy. **Tree nodes** in this context represent **layers linked to one or more context bitmaps**, filtering down unstructured information fighting for your attention while working in a standard(tm) desktop environment(emails, notifications/chat and system messages, growing number of random browser tabs, unmanageable stack of windows and ad-hoc download-extract-test-forget endeavors to name a few).
 
 ## Couple of core principles to start with
 
@@ -30,6 +30,6 @@ Contexts are organized into a dynamic tree structure resembling a file-system hi
 ## Get Involved
 
 - By opening a new issue in any existing repository
-- By picking an issue to work on at <https://github.com/orgs/canvas-ai/projects/2>
-- Saying hello over <https://canvasai.slack.com>
-- Or spamming us directly via <devel@getcanvas.org>
+- By picking an issue to work on from <https://github.com/orgs/canvas-ai/projects/2>
+- Saying hello in [Slack](https://join.slack.com/t/canvasai/shared_invite/zt-2x9ywczgx-UYP6buONsPe0kvNM9zVdxw)
+- Or spamming us directly via <dev@getcanvas.org>
