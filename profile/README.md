@@ -3,7 +3,7 @@
 **Contexts** are represented by a virtual file-system tree powered by bitmaps\[[0](https://en.wikipedia.org/wiki/Bitmap)\]. Every tree node("directory") represents a layer linked to a roaring bitmap\[[1](https://roaringbitmap.org/)\], filtering down all unstructured information fighting for your attention while working in a standard(tm) desktop environment(emails, notifications/chat and system messages, growing number of random browser tabs, unmanageable stack of windows and ad-hoc download-extract-test-forget endeavors to name a few).
 
 **Layers** are unique - a `reports` layer in `/work/customer-a/reports` and `/work/customer-b/reports` is stored under the same uuid linking to the same bitmap - renaming/removing/updating one will update all occurences in the context tree.  
-Context layers filter different data based on where they are placed. Iow, moving `reports` to `/` would show you all data linked to the reports layer within your Universe, moving it under `/work/customer-a` would do a logical AND on the `work`, `customer-a` and `reports` bitmaps and result in a filtered view of all objects stored in your workspace).  
+Context layers filter different data based on where they are placed. Iow, moving `reports` to `/` would show you all data linked to the reports layer within your Universe, moving it under `/work/customer-a` would do a logical AND on the `work`, `customer-a` and `reports` layer bitmaps and result in a filtered view of all objects stored in your workspace).  
 
 Your **Universe** can be further split into self-contained, movable/shareable **Workspaces**, each running its own in-process database with a context tree abstraction on top.
 
@@ -12,10 +12,10 @@ The backend component for Canvas is called **canvas-server**, a small nodejs-bas
 You can index almost any data type regardless where it is stored, retrieval can use client context data like network location, OS, device ID etc to make a roaming experience as smooth as your network latencies allow; reads from remote locations are cached using cacache\[[2](https://www.npmjs.com/package/cacache)\].
 
 **A common use-case of a shared "Home" workspace**: 
-Lets say you are planning your upcoming vacation and are searching for accommodation "the-old-fashioned-way"(tm) by searching the interweb yourself.  
-You set your context to `home://travel/2025/europe/spain`(via command-line of course: `$ context set home://travel/...`), this will update all your linked applications - in our example browser tabs - and you start opening your listings. Your significant other can connect to the same shared context and start adding new tabs, closing the already reviewed ones, even adding notes or contacts - all events are dynamically propagated to all connected clients(whenever someone opens a browser tab, a new tab is auto-created on all linked browsers(if configured to do so)).
+Lets say you are planning your upcoming vacation and looking for accommodation "the-old-fashioned-way"(tm) by searching the interweb yourself.  
+You set your context to `home://travel/2025/europe/spain`(via command-line of course: `$ context set home://travel/...`), this will update all your linked applications - in our example browser tabs - and you start opening your listings. Your significant other can connect to the same shared context and start adding new tabs, closing the already reviewed ones, even adding notes or contacts. All context tree events are dynamically propagated to all connected clients(whenever someone opens a browser tab, a new tab is auto-created or auto-closed on all linked browsers(if configured to do so)).
 
-Another common use-case is work on multiple customers/projects/tasks - all with their own set of contacts and long-running email threads, notes, files, browser tabs etc. Switching between them should be like teleporting between perfectly maintained offices - all of them having a tidy clean desk with only the tools you need to accomplish your task.
+Another common use-case is work on multiple customers/projects/tasks - all with their own set of contacts and long-running email threads, notes, files, browser tabs etc. Switching between them should be like teleporting between perfectly maintained offices - all of them with a tidy clean desk with only the tools you need to accomplish your task.
 
 ## Canvas is split into the following components:
   - canvas-server: Main server runtime accessible via REST and websockets, current codebase
