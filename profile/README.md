@@ -4,8 +4,6 @@
 
 # Canvas UI
 
-
-
 **Canvas** is a cross-platform, cross-device **~desktop~ world overlay** to help **organize** your **work**, **workflows** and unstructured **data** of your own `Universe` into `Workspaces`, organizing data into virtual bitmap-powered `context` and `directory`-like trees, with shareable, bindable `contexts` on top, built on LMDB, roaring-bitmaps, embedding vector trees and coffee.
 
 Yeah, no worries, there is some `ai`(tm) in there somewhere too.
@@ -31,6 +29,12 @@ in every bound application. No more 1000+ browser tabs waiting for session corru
 Switching between tasks becomes like switching between an organized set of canvases placed nicesly on a clean desk, with a task-customized toolbox, in a task-dedicated office!(or whatever abstraction is more aligned to your internal world model :) 
 
 Context switches may still be expensive, but they can now be orders of magnitude more efficient.  
+
+
+## Project screenshots
+
+- https://demo.cnvs.ai/pub/c/aks6zaf8
+
 
 ## A few gory details
 
