@@ -130,6 +130,13 @@ You set your context to `home://travel/2025/europe/spain`(via command-line of co
 - <https://github.com/canvas-ui/canvas-browser-extensions>
 - <https://github.com/canvas-ui/canvas-cli>
 
+Client apps ([canvas-ui/canvas](https://github.com/canvas-ui/canvas)):
+
+- [`apps/cli`](https://github.com/canvas-ui/canvas/blob/main/apps/cli/README.md) — Canvas CLI (bun-compiled binaries)
+- [`apps/desktop`](https://github.com/canvas-ui/canvas/blob/main/apps/desktop/README.md) — Tauri desktop app
+- [`apps/browser-extension`](https://github.com/canvas-ui/canvas/blob/main/apps/browser-extension/README.md) — Chromium + Firefox extension
+- [`apps/web`](https://github.com/canvas-ui/canvas/blob/main/apps/web/README.md) — web UI (vite/react)
+
 ## Get Involved
 
 - By opening a new issue in any existing repository
